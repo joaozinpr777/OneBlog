@@ -1,0 +1,45 @@
+body{background-color: darkgray;}
+.main{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 500px;
+    background-color: darkred;
+    margin-left: 10%;
+    margin-top: 70px;
+    border-radius: 20px;
+    
+}
+#luffyimg{
+    width: 325px;
+    height: 250px;
+    border-radius: 20px;
+
+}
+.txt{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.txt p{
+    font-size: 25px;
+}
+.txt h2{
+    font-size: 30px;
+    text-align: center;
+}
+.img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
